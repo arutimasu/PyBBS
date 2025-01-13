@@ -1,0 +1,13 @@
+<html>
+<head>
+<script>
+name = prompt("")
+var xhr = new XMLHttpRequest();
+xhr.open("POST", yourUrl, true);
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.send(JSON.stringify({
+    value: value
+}));
+</script>
+</head>
+</html>

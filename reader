@@ -1,0 +1,4 @@
+file = open("contacts", "r")
+for line in file:
+	print(line.split(sep="\t")[1])
+
